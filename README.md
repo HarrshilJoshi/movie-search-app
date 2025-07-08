@@ -1,12 +1,35 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and fast movie search app built with **React + Vite**, powered by **TMDB API** for fetching movie data and **Appwrite** for tracking trending searches based on user interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
 
-## Expanding the ESLint configuration
+- 🔎 Search for movies in real-time using the TMDB API
+- 🎥 Click on a movie to increase its popularity count
+- 📈 View the most trending movies dynamically
+- ⚡️ Fast performance with Vite and Debounce logic
+- ☁️ Backend integrated using Appwrite (database & document updates)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS (or your preferred CSS system)
+- **Backend**: Appwrite (for DB, document updates)
+- **API**: TMDB (The Movie Database)
+- **Hosting**: Vercel (for frontend)
+
+---
+
+## ⚙️ Environment Variables
+
+Before running the project, create a `.env` file in the root and include the following:
+
+```env
+VITE_TMBD_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
