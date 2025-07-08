@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Search from './components/Search.jsx';
-import Spinner from './components/spinner.jsx';
+import Spinner from './components/Spinner.jsx';
 import MovieCard from './components/MovieCard.jsx';
 // import {useDebouce} from 'react-use'
 import { useDebounce } from 'react-use';
